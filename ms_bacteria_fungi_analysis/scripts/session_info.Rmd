@@ -1,0 +1,24 @@
+---
+title: "ms_bacteria_fungi package versions"
+author: "Nelly Amenyogbe"
+date: "7/29/2020"
+output: word_document
+---
+
+```{r, message = FALSE}
+# packages used for HEU_manusript analysis
+library(plyr)
+library(dplyr)
+library(ggplot2)
+library(phyloseq)
+library(DESeq2)
+library(reshape2)
+library(vegan)
+```
+
+
+
+```{r}
+# now get the versions of all packages used
+sessionInfo()
+```
